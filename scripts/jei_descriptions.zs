@@ -7,12 +7,12 @@ mods.jei.JEI.addDescription([<harvestcraft:market>],["READ THIS! The market has 
 
 #SFS TOOLS#
 
-mods.jei.JEI.addDescription([<betterwithaddons:steel_machete>],["A multipurpose tool. Cuts through thick foliage and spiderwebs easily. Acts like Shears. When right-clicked, places Vines from your inventory. Has very limited enchantability since it is already infused with souls."]);
-mods.jei.JEI.addDescription([<betterwithaddons:steel_matchpick>],["A multipurpose tool. When right-clicked, places torches from your inventory. If you have no torches, or if you're sneaking, it will ignite the ground instead. Useful for exploring the Nether. Has very limited enchantability since it is already infused with souls."]);
-mods.jei.JEI.addDescription([<betterwithaddons:steel_spade>],["A multipurpose tool. When you dig up any soil, it will be placed directly in your inventory. Right-clicking with the Spade places soil from your inventory. Has very limited enchantability since it is already infused with souls."]);
-mods.jei.JEI.addDescription([<betterwithaddons:steel_masonpick>],["A multipurpose tool. Stone blocks mined will be placed in your inventory. Right-clicking with the Mason Pick places processed stone such as Slabs, Bricks, or Stairs from your inventory. Has very limited enchantability since it is already infused with souls."]);
-mods.jei.JEI.addDescription([<betterwithaddons:steel_kukri>],["A multipurpose tool. Cuts through any wood or leaves. Wood harvested by this tool will be collected instantly. Right-clicking with the Kukri places saplings from your inventory. Has very limited enchantability since it is already infused with souls."]);
-mods.jei.JEI.addDescription([<betterwithaddons:steel_carpentersaw>],["A multipurpose tool. Wood blocks mined will be placed in your inventory. Right-clicking with the Carpenter Saw places processed wooden blocks such as Slabs, Planks, or Stairs from your inventory. Has very limited enchantability since it is already infused with souls."]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_machete>],["A multipurpose tool. Cuts through thick foliage and spiderwebs easily. Acts like Shears. When right-clicked, places Vines from your inventory. Can only be enchanted in the True Enchantment Table"]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_matchpick>],["A multipurpose tool. When right-clicked, places torches from your inventory. If you have no torches, or if you're sneaking, it will ignite the ground instead. Useful for exploring the Nether. Can only be enchanted in the True Enchantment Table"]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_spade>],["A multipurpose tool. When you dig up any soil, it will be placed directly in your inventory. Right-clicking with the Spade places soil from your inventory. Can only be enchanted in the True Enchantment Table"]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_masonpick>],["A multipurpose tool. Stone blocks mined will be placed in your inventory. Right-clicking with the Mason Pick places processed stone such as Slabs, Bricks, or Stairs from your inventory. Can only be enchanted in the True Enchantment Table"]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_kukri>],["A multipurpose tool. Cuts through any wood or leaves. Wood harvested by this tool will be collected instantly. Right-clicking with the Kukri places saplings from your inventory. Can only be enchanted in the True Enchantment Table"]);
+mods.jei.JEI.addDescription([<betterwithaddons:steel_carpentersaw>],["A multipurpose tool. Wood blocks mined will be placed in your inventory. Right-clicking with the Carpenter Saw places processed wooden blocks such as Slabs, Planks, or Stairs from your inventory. Can only be enchanted in the True Enchantment Table"]);
 
 # BWM #
 mods.jei.JEI.addDescription(<betterwithmods:material:14>,"Used as a late-game crafting material. It can craft a Mattock- the best mining tool available! It is also needed for some advanced contraptions.");
@@ -24,7 +24,7 @@ mods.jei.JEI.addDescription(<betterwithmods:material:11>, "Can be crafted using 
 #MISCELLANEOUS#
 
 
-mods.jei.JEI.addDescription([<nyx:fallen_star>],["A piece of Heaven lies inside fallen stars. These will rarely fall from the sky, but many will fall during a star shower."]);
+mods.jei.JEI.addDescription([<nyx:fallen_star>],["A piece of the heavens lies inside fallen stars. These will rarely fall from the sky, but are more common during a star shower."]);
 
 mods.jei.JEI.addDescription([<nyx:comet_shard>],["A very rare find. These toughened rock chunks fall from the sky, but are also found embedded within Elder Guardians."]);
 
@@ -34,10 +34,10 @@ mods.jei.JEI.addDescription([<contenttweaker:heavensheart>],["Beating with the f
 mods.jei.JEI.addDescription([<contenttweaker:heartofthefallen>],["The beating of this heart never stops. If you listen closely, you can hear faint cries of pain and sorrow echoing within."]);
 
 
-mods.jei.JEI.addDescription(<betterwithmods:steel_pickaxe>,"Provides the best mining speed and durability, but has very limited enchantability since it is already infused with souls.");
-mods.jei.JEI.addDescription(<betterwithmods:steel_mattock>,"The best mining tool obtainable. Combines the Refined Pickaxe and Refined Shovel into one tool, but has very limited enchantability since it is already infused with souls.");
-mods.jei.JEI.addDescription(<betterwithmods:steel_axe>,"Provides the best mining speed and durability, but has very limited enchantability since it is already infused with souls.");
-mods.jei.JEI.addDescription(<betterwithmods:steel_shovel>,"Provides the best mining speed and durability, but has very limited enchantability since it is already infused with souls.");
+mods.jei.JEI.addDescription(<betterwithmods:steel_pickaxe>,"Provides the best mining speed and durability, but Can only be enchanted in the True Enchantment Table");
+mods.jei.JEI.addDescription(<betterwithmods:steel_mattock>,"The best mining tool obtainable. Combines the Refined Pickaxe and Refined Shovel into one tool, but Can only be enchanted in the True Enchantment Table");
+mods.jei.JEI.addDescription(<betterwithmods:steel_axe>,"Provides the best mining speed and durability, but Can only be enchanted in the True Enchantment Table");
+mods.jei.JEI.addDescription(<betterwithmods:steel_shovel>,"Provides the best mining speed and durability, but Can only be enchanted in the True Enchantment Table");
 mods.jei.JEI.addDescription(<betterwithmods:steel_hoe>,"Provides the best durability, but impossible to enchant since it is already infused with souls.");
 
 mods.jei.JEI.addDescription(<betterwithmods:steel_helmet>,"Impossible to enchant, since it is already infused with souls.");
@@ -58,7 +58,7 @@ mods.jei.JEI.addDescription([<minecraft:cactus>],["Can be used to fill a bottle 
 
 mods.jei.JEI.addDescription([<minecraft:compass>],["Sneak and right-click on a bed, beacon, or banner to make the compass point to it. Create multiple compasses for different waypoints."]);
 
-mods.jei.JEI.addDescription([<minecraft:enchanting_table>],["Can be upgraded with an Enchantment Table Upgrade. Creating a block costs XP. This XP cost increases by 1 for every 3 blocks that you add. Put them in the grid to apply them. Don't get greedy!"]);
+mods.jei.JEI.addDescription([<minecraft:enchanting_table>],["Can be upgraded with an Enchanting Table Upgrade. Creating a block costs XP. This XP cost increases by 1 for every 3 blocks that you add. Put them in the grid to apply them. Don't get greedy!"]);
 
 mods.jei.JEI.addDescription([<netherchest:nether_chest>],["When items are stored in a Nether Chest, their normal stack size limit is multiplied by 8, due to the way the Nether compresses space by a factor of 8. This stack size increase also applies to tools and any other items that aren't normally stackable. Despite their name, trying to open one in the Nether is a very bad idea."]);
 
@@ -124,7 +124,7 @@ mods.jei.JEI.addDescription(<quark:archaeologist_hat>,"Wearing this hat makes yo
 # Soul Powder
 mods.jei.JEI.addDescription(<quark:soul_powder>,"Trapped somewhere within these cursed ashes are the memories of lost souls. Even in this state, they still seek out the dreaded sites of their deaths. Perhaps finding such a place would grant them peace.");
 # Soul Bead
-mods.jei.JEI.addDescription(<quark:soul_bead>,"Consuming the bead releases the trapped spirit within, at the cost of alerting all manner of dreadful creatures attracted to the use of rare magic.");
+mods.jei.JEI.addDescription(<quark:soul_bead>,"Warped bead formed from the cursed core of a wraith. Ingesting it releases the trapped spirits within, at the cost of alerting all manner of dreadful creatures attracted to the use of rare magic.");
 # Diamond Heart
 mods.jei.JEI.addDescription(<quark:diamond_heart>,"A rare heart of living mineral ripped from the core of the world and restored to life with magic.");
 # Sap
@@ -155,7 +155,7 @@ mods.jei.JEI.addDescription(<spartanweaponry:material>,"Provides a good grip for
 mods.jei.JEI.addDescription(<spartanweaponry:material:1>,"Provides a good grip for more advanced weapons.");
 # Amethyst
 mods.jei.JEI.addDescription(<ore:gemAmethyst>,"A beautiful gem common to the lands of the Ender folk, as by now deposits in the Nether have long been depleted. Some villagers in the coldest of places collect this gem through unknown methods.");
-mods.jei.JEI.addDescription(<netherex:amethyst_crystal>,"A beautiful gem native to the lands of the pig folk, this variety is most rare since pristine veins only remain in The End. Some villagers in the coldest of places collect this gem through unknown methods.");
+mods.jei.JEI.addDescription(<netherex:amethyst_crystal>,"A beautiful gem native to the lands of the Pigfolk, this variety is most rare since pristine veins only remain in The End. Some villagers in the coldest of places collect this gem through unknown methods.");
 # Da Vinci's vessels
 mods.jei.JEI.addDescription(<davincisvessels:marker>,'Upon thinking of this item, the word "wiki" comes to mind.');
 # Copper tin
@@ -321,4 +321,6 @@ mods.jei.JEI.addDescription([<msmlegacy:relic_candy>],["Relic idea by Just A BLU
 
 # Lore Specific
 mods.jei.JEI.addDescription(<minecraft:rotten_flesh>,"...and they will rise only to seek the surface again as each night falls...");
+mods.jei.JEI.addDescription(<betternether:pig_statue_01>,"Carved in the likeness of the Pigfolk. The inscriptions around the rim of the brazier are carved in unfamiliar languages... all except for one. You can make out the words 'VARKAAL...', 'LIFE FROM LIGHT...', and 'DUST...'");
+
 ### mods.jei.JEI.addDescription(<minecraft:clay_ball>,"Such a malleable material, could they see us the same in the Void?"); -> should be put on a more fitting item

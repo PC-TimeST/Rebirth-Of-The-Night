@@ -9,14 +9,13 @@ recipes.addShaped("aether_legacy_skyroot_trapdoor", <aether_legacy:skyroot_trapd
     [[null,null,null],
     [skyplank,skyplank,skyplank],
     [skyplank,skyplank,skyplank]]);
-recipes.removeByRecipeName("betternether:stalagnate_planks_trapdoor");
-recipes.removeByRecipeName("betternether:stalagnate_planks_chest");
 recipes.removeByRecipeName("betterwithmods:quark/spruce_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/birch_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/acacia_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/dark_oak_trapdoor");
 recipes.removeByRecipeName("betterwithmods:quark/jungle_trapdoor");
 recipes.removeByRecipeName("betterwithmods:decompress/ender_pearl_decompress");
+recipes.removeByRecipeName("betterwithmods:decompress/melon_decompress");
 
 recipes.removeByRecipeName("betterwithmods:items/material/material.padding");
 recipes.addShapeless("betterwithmods_items/material/material_padding", <betterwithmods:material:41>, [<ore:feather>,<betterwithmods:material:4>]);

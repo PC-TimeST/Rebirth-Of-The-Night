@@ -19,9 +19,9 @@ mods.betterwithmods.Crucible.addUnstoked([<ore:cobblestone>],[<minecraft:stone>]
 mods.betterwithmods.Crucible.addUnstoked(
     [
         <minecraft:iron_ingot>,
-        <ore:dustCoal>,
-        <ore:dustCoal>,
-        <ore:dustCoal>
+        <ore:dustCoal>|<ore:dustCharcoal>,
+        <ore:dustCoal>|<ore:dustCharcoal>,
+        <ore:dustCoal>|<ore:dustCharcoal>
     ],
     [
         <dungeontactics:steel_ingot>
@@ -31,9 +31,9 @@ mods.betterwithmods.Crucible.addUnstoked(
 mods.betterwithmods.Crucible.addStoked(
     [
         <minecraft:iron_ingot>,
-        <ore:dustCoal>,
-        <ore:dustCoal>,
-        <ore:dustCoal>
+        <ore:dustCoal>|<ore:dustCharcoal>,
+        <ore:dustCoal>|<ore:dustCharcoal>,
+        <ore:dustCoal>|<ore:dustCharcoal>
     ],
     [
         <dungeontactics:steel_ingot>
@@ -166,6 +166,46 @@ mods.betterwithmods.Crucible.addStoked(
     ],
     [
         <ore:ingotElectrum>.firstItem*4
+    ]
+);
+//Unstoked Magic Wood & Star Piece
+mods.betterwithmods.Crucible.addUnstoked(
+    [
+        <biomesoplenty:log_1:5>*4,
+		<nyx:fallen_star>
+    ],
+    [
+        <dungeontactics:magic_powder>*4
+    ]
+);
+//Unstoked Magic Wood & Comet Shard
+mods.betterwithmods.Crucible.addUnstoked(
+    [
+        <biomesoplenty:log_1:5>*4,
+		<nyx:comet_shard>
+    ],
+    [
+        <dungeontactics:magic_powder>*8
+    ]
+);
+//Stoked Magic Wood & Star Piece
+mods.betterwithmods.Crucible.addStoked(
+    [
+        <biomesoplenty:log_1:5>*4,
+		<nyx:fallen_star>
+    ],
+    [
+        <dungeontactics:magic_powder>*8
+    ]
+);
+//Stoked Magic Wood & Comet Shard
+mods.betterwithmods.Crucible.addStoked(
+    [
+        <biomesoplenty:log_1:5>*4,
+		<nyx:comet_shard>
+    ],
+    [
+        <dungeontactics:magic_powder>*16
     ]
 );
 
