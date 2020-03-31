@@ -9,9 +9,10 @@ recipes.remove(<eplus:advanced_table>);
 recipes.remove(<eplus:table_upgrade>);
 
 recipes.addShaped("Table Upgrade", <eplus:table_upgrade>,[
-[<minecraft:gold_block>, <eplus:decorative_book>, <minecraft:gold_block>],
-[<minecraft:obsidian>, <simpleores:mythril_ingot>, <minecraft:obsidian>], 
-[<minecraft:gold_block>, <contenttweaker:knowledge_orb>, <minecraft:gold_block>]]);
+	[<minecraft:gold_block>, <minecraft:writable_book>, <minecraft:gold_block>],
+    [<minecraft:obsidian>, <simpleores:mythril_ingot>, <minecraft:obsidian>],
+    [<minecraft:gold_block>, <minecraft:ender_eye>, <minecraft:gold_block>]
+]);
       
 
 
@@ -28,22 +29,6 @@ mods.rockytweaks.Anvil.remove([<msmlegacy:wither_bane:*>]); // darks edge
 mods.rockytweaks.Anvil.remove([<msmlegacy:relic_aqueous:*>]);
 mods.rockytweaks.Anvil.remove([<msmlegacy:relic_candy:*>]);
 
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_pickaxe>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_axe>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_shovel>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_hoe>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_mattock>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_hacksaw>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_helmet>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_chest>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_pants>]);
-mods.rockytweaks.Anvil.remove([<betterwithmods:steel_boots>]);
-mods.rockytweaks.Anvil.remove([<betterwithaddons:steel_spade>]);
-mods.rockytweaks.Anvil.remove([<betterwithaddons:steel_matchpick>]);
-mods.rockytweaks.Anvil.remove([<betterwithaddons:steel_machete>]);
-mods.rockytweaks.Anvil.remove([<betterwithaddons:steel_kukri>]);
-mods.rockytweaks.Anvil.remove([<betterwithaddons:steel_carpentersaw>]);
-mods.rockytweaks.Anvil.remove([<betterwithaddons:steel_masonpick>]);
 
 
 

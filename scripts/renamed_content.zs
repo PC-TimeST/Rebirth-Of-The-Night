@@ -5,11 +5,6 @@ import crafttweaker.game.IGame;
 
 
 // Aether Legacy
-<aether_legacy:obsidian_chestplate>.displayName = "Extinguished Flame Chestplate";
-<aether_legacy:obsidian_helmet>.displayName = "Extinguished Flame Helmet";
-<aether_legacy:obsidian_leggings>.displayName = "Extinguished Flame Leggings";
-<aether_legacy:obsidian_boots>.displayName = "Extinguished Flame Boots";
-
 <aether_legacy:cockatrice>.displayName = "Kelenk Meat";
 <aether_legacy:burnt_cockatrice>.displayName = "Burnt Kelenk Meat";
 <aether_legacy:enchanted_cockatrice>.displayName = "Enchanted Kelenk Meat";
@@ -27,6 +22,9 @@ import crafttweaker.game.IGame;
 <aether_legacy:holystone_brick_slab>.displayName = "Holystone Brick Slab";
 <aether_legacy:aerogel_slab>.displayName = "Aerogel Slab";
 <aether_legacy:skyroot_slab>.displayName = "Aether Slab";
+
+// End Reborn III
+<endreborn:tool_hammer_iron>.displayName = "Ancient Sledgehammer";
 
 // Guidebook
 <animania:animania_manual>.displayName = "§bAnimania Manual";
@@ -63,7 +61,6 @@ import crafttweaker.game.IGame;
 <twilightforest:mangrove_plate>.displayName = "Twilight Mangrove Pressure Plate";
 <twilightforest:stone_twist>.displayName = "Twisted Stone Pillar";
 <twilightforest:stone_twist_thin>.displayName = "Thin Twisted Stone Pillar";
-<twilightforest:boss_spawner:9>.displayName = "Final Boss Spawner";
 
 // Dimstack
 <dimstack:portal>.displayName = "Arcane Barrier";
@@ -164,10 +161,7 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <betternether:stalagnate_bowl_mushroom>.displayName = "Mushroom Soup";
 <betternether:stalagnate_bark>.displayName = "Stalagnate Bark Block";
 <betternether:nether_brick_wall>.displayName = "Nether Brick Tile Wall";
-<betternether:chest_of_drawers>.displayName = "Cincinnasite Drawer";
-<betternether:cincinnasite_carved>.displayName = "Carved Cincinnasite";
-<betternether:magma_flower>.displayName = "Magma Flower Seed";
-<betternether:pig_statue_01>.displayName = "Statue of Reincarnation";
+<betternether:chest_of_drawers>.displayName = "Cincinnasite Chest Of Drawers";
 
 // NetherEX
 <netherex:frosted_amedian_sword>.displayName = "Frosted Rime Sword";
@@ -175,30 +169,6 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <netherex:frosted_amedian_axe>.displayName = "Frosted Rime Axe";
 <netherex:frosted_amedian_shovel>.displayName = "Frosted Rime Shovel";
 <netherex:frosted_amedian_hoe>.displayName = "Frosted Rime Hoe";
-<netherex:basalt>.displayName = "Black Basalt";
-<netherex:smooth_basalt>.displayName = "Smooth Black Basalt";
-<netherex:basalt_brick>.displayName = "Black Basalt Bricks";
-<netherex:basalt_pillar>.displayName = "Black Basalt Pillar";
-<netherex:basalt_slab>.displayName = "Black Basalt Slab";
-<netherex:smooth_basalt_slab>.displayName = "Smooth Black Basalt Slab";
-<netherex:basalt_brick_slab>.displayName = "Black Basalt Brick Slab";
-<netherex:basalt_pillar_slab>.displayName = "Black Basalt Pillar Slab";
-<netherex:basalt_stairs>.displayName = "Black Basalt Stairs";
-<netherex:smooth_basalt_stairs>.displayName = "Smooth Black Basalt Stairs";
-<netherex:basalt_brick_stairs>.displayName = "Black Basalt Brick Stairs";
-<netherex:basalt_pillar_stairs>.displayName = "Black Basalt Pillar Stairs";
-<netherex:basalt_wall>.displayName = "Black Basalt Wall";
-<netherex:smooth_basalt_wall>.displayName = "Smooth Black Basalt Wall";
-<netherex:basalt_brick_wall>.displayName = "Black Basalt Brick Wall";
-<netherex:basalt_pillar_wall>.displayName = "Black Basalt Pillar Wall";
-<netherex:basalt_fence>.displayName = "Black Basalt Fence";
-<netherex:smooth_basalt_fence>.displayName = "Smooth Black Basalt Fence";
-<netherex:basalt_brick_fence>.displayName = "Black Basalt Brick Fence";
-<netherex:basalt_pillar_fence>.displayName = "Black Basalt Pillar Fence";
-<netherex:basalt_fence_gate>.displayName = "Black Basalt Fence Gate";
-<netherex:smooth_basalt_fence_gate>.displayName = "Smooth Black Basalt Fence Gate";
-<netherex:basalt_brick_fence_gate>.displayName = "Black Basalt Brick Fence Gate";
-<netherex:basalt_pillar_fence_gate>.displayName = "Black Basalt Pillar Fence Gate";
 
 // Pyrotech
 <pyrotech:stone_hammer>.displayName = "Stone Sledgehammer";
@@ -211,24 +181,13 @@ game.setLocalization("tile.bwm:steel_anvil.name","Steel Anvil");
 <animania:cooked_frog_legs>.displayName = "Cooked Prime Frog Legs";
 
 // Bountiful Baubles
-<bountifulbaubles:potionrecall>.displayName = "Return Potion";
+<bountifulbaubles:potionrecall>.displayName = "Respawn Potion";
 
 // Spartan Weapony
 <spartanweaponry:arrow_explosive>.displayName = "Destructive Arrow";
 
 // Underground Biomes
 <undergroundbiomes:fossil_piece:5>.displayName = "Claw Fossil";
-<undergroundbiomes:metamorphic_sandstone_chiseled:0>.displayName = "Chiseled Gneiss Sandstone";
-<undergroundbiomes:metamorphic_sandstone_chiseled:1>.displayName = "Chiseled Eclogite Sandstone";
-<undergroundbiomes:metamorphic_sandstone_chiseled:2>.displayName = "Chiseled Marble Sandstone";
-<undergroundbiomes:metamorphic_sandstone_chiseled:3>.displayName = "Chiseled Quartzite Sandstone";
-<undergroundbiomes:metamorphic_sandstone_chiseled:4>.displayName = "Chiseled Blue Schist Sandstone";
-<undergroundbiomes:metamorphic_sandstone_chiseled:5>.displayName = "Chiseled Green Schist Sandstone";
-<undergroundbiomes:metamorphic_sandstone_chiseled:6>.displayName = "Chiseled Soapstone Sandstone";
-<undergroundbiomes:metamorphic_sandstone_chiseled:7>.displayName = "Chiseled Migmatite Sandstone";
-
-// Rats
-<rats:rat_cage_breeding_lantern>.displayName = "Rat Cage";
 
 // Runes and Magic Items
 <contenttweaker:blank_rune>.addTooltip(format.gray("Inert"));
@@ -315,11 +274,6 @@ game.setLocalization("material.spartanweaponry:adamantium","§2Viridium");
 
 
 #Epic
-
-<contenttweaker:amulet_of_divinity>.displayName = "§5Amulet of Divinity";
-<contenttweaker:amulet_of_divinity>.addTooltip(format.darkPurple(""));
-
-
 <nyx:fallen_star>.displayName = "§5Fallen Star";
 <nyx:fallen_star>.addTooltip("Crafting Material");
 
@@ -544,10 +498,10 @@ game.setLocalization("material.spartanweaponry:onyx","§6Onyx");
 <msmlegacy:dawn_star>.addTooltip(format.red("Godly Weapon"));
 <msmlegacy:dawn_star>.addTooltip("I am truth. I am majesty. I am justice.");
 
-<dungeontactics:silver_sword:*>.displayName = "§cTrue Dark's Edge";
-<dungeontactics:silver_sword:*>.addTooltip(format.red("Godly Weapon"));
-<dungeontactics:silver_sword:*>.addTooltip("They will suffer as we have.");
-mods.jei.JEI.addDescription([<dungeontactics:silver_sword:*>],["The True Dark's Edge is a living blade fused with the endless power of the fallen. The sword will never despawn and inflicts enemies with paralysis."]);
+<dungeontactics:silver_sword>.displayName = "§cTrue Dark's Edge";
+<dungeontactics:silver_sword>.addTooltip(format.red("Godly Weapon"));
+<dungeontactics:silver_sword>.addTooltip("They will suffer as we have.");
+mods.jei.JEI.addDescription([<dungeontactics:silver_sword>],["The True Dark's Edge is a living blade fused with the endless power of the fallen. The sword will never despawn and inflicts enemies with paralysis."]);
 
 
 <betterwithmods:steel_mattock>.displayName = "§cRefined Mattock";
@@ -558,7 +512,6 @@ mods.jei.JEI.addDescription([<dungeontactics:silver_sword:*>],["The True Dark's 
 
 <betterwithaddons:greatbow>.displayName = "§cOnyx Slayer Greatbow";
 <betterwithaddons:greatbow>.addTooltip(format.red("Godly Weapon"));
-<betterwithaddons:greatbow>.addTooltip("The weight of worldly destruction");
 
 
 <msmlegacy:eye_end_blade>.displayName = "§cInterdimensional Blade";
@@ -575,18 +528,14 @@ mods.jei.JEI.addDescription([<dungeontactics:silver_sword:*>],["The True Dark's 
 <mowziesmobs:earth_talisman>.addTooltip(format.red("Godly Artifact"));
 
 <msmlegacy:adminium_ark>.displayName = "§4Ender of Worlds";
+<msmlegacy:adminium_ark>.addTooltip(format.darkRed("Forbidden Weapon"));
 
 <msmlegacy:glacial_blade>.addTooltip("Nunon fin Dovahkiin aal kod daar tuz");
 
 
 
+<betterwithaddons:greatbow>.addTooltip("The weight of worldly destruction");
 <msmlegacy:eye_end_blade>.addTooltip(format.obfuscated("Ender of Worlds"));
-
-
-
-<msmlegacy:adminium_ark>.addTooltip(format.darkRed("Forbidden Weapon"));
-<msmlegacy:adminium_ark>.addTooltip("Only one with the power to control the world may weild this weapon.");
-
 
 
 # Relics

@@ -50,7 +50,7 @@
   {
     "internalOreName": "minecraft:emerald_ore",
     "meta": -1,
-    "overlay": "undergroundbiomes:blocks/overlays/minecraft/emerald",
+    "overlay": "rotn:overlays/minecraft/emerald",
     "lightValue": -1,
     "alphaOverlay": false,
     "oreDirectories": []

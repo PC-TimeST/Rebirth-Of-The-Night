@@ -92,7 +92,6 @@ recipes.remove(<rats:cheese>);
 recipes.remove(<rats:rat_burger>);
 recipes.remove(<rats:potato_pancake>);
 recipes.remove(<rats:rat_upgrade_disenchanter>);
-recipes.remove(<rats:rat_upgrade_armor>);
 mods.rats.recipes.removeChefRatRecipe(<rats:confit_byaldi>);
 mods.rats.recipes.removeChefRatRecipe(<rats:potato_kinishes>);
 mods.rats.recipes.removeChefRatRecipe(<rats:string_cheese>);
@@ -162,11 +161,6 @@ recipes.addShaped("rats_disenchanter_upgrade", <rats:rat_upgrade_disenchanter>,[
     [<bountifulbaubles:disintegrationtablet>, <bountifulbaubles:spectralsilt>, <bountifulbaubles:disintegrationtablet>]
 ]);
 
-recipes.addShaped("rats_armor_upgrade", <rats:rat_upgrade_armor>, [
-    [<minecraft:iron_ingot>, <spartanshields:shield_basic_iron>, <minecraft:iron_ingot>],
-    [<minecraft:iron_ingot>, <rats:rat_upgrade_basic>, <minecraft:iron_ingot>],
-    [<minecraft:iron_ingot>, <minecraft:iron_block>, <minecraft:iron_ingot>]
-]);
 
 // cheese workaround until official fix
 val orecheese = <ore:foodCheese>;

@@ -1,9 +1,4 @@
 import crafttweaker.item.IIngredient;
-import loottweaker.vanilla.loot.LootTables;
-import loottweaker.vanilla.loot.LootTable;
-import loottweaker.vanilla.loot.LootPool;
-import loottweaker.vanilla.loot.Conditions;
-import loottweaker.vanilla.loot.Functions; 
 
 mods.jei.JEI.removeAndHide(<aether_legacy:skyroot_double_slab>);
 
@@ -46,8 +41,6 @@ mods.jei.JEI.removeAndHide(<aeble:ice_ring>);
 mods.ltt.LootTable.removeGlobalItem("aeble:obsidian_ring");
 mods.ltt.LootTable.removeGlobalItem("aeble:zanite_ring");
 mods.ltt.LootTable.removeGlobalItem("aeble:ice_ring");
-mods.ltt.LootTable.removeModEntry("aeble");
-
 
 
 mods.ltt.LootTable.removeGlobalItem("aether_legacy:obsidian_chestplate");

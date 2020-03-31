@@ -4,8 +4,6 @@ import crafttweaker.data.IData;
 
 
 //mods.ltt.LootTable.removeGlobalItem("minecraft:enchanted_book.withTag({StoredEnchantments: [{lvl: 1 as short, id: 99 as short}]})");
-recipes.remove(<msmlegacy:adminium_ark>);
-
 
 mods.jei.JEI.removeAndHide(<msmlegacy:relic_infinity>);
 mods.jei.JEI.removeAndHide(<msmlegacy:relic_keyblade>);
@@ -146,11 +144,11 @@ var witherrose = <minecraftfuture:flowerblack>;
 var shulkerheart = <bountifulbaubles:trinketshulkerheart>;
 var trollskull = <iceandfire:troll_skull>;
 var brokenheart = <bountifulbaubles:trinketbrokenheart>;
-var knighttrophy = <twilightforest:trophy:4>;
+var hirschgeistskull = <betteranimalsplus:hirschgeistskull_1>;
 var darksedge = <msmlegacy:wither_bane>;
 var heartofthefallen = <contenttweaker:heartofthefallen>;
 var onyx = <simpleores:onyx_gem>;
-var soulrune = <contenttweaker:soul_rune>;
+var cometshard = <nyx:comet_shard>;
 var ravenfeather = <twilightforest:raven_feather>;
 
 mods.betterwithmods.Anvil.addShaped(<contenttweaker:heartofthefallen>, 
@@ -158,7 +156,7 @@ mods.betterwithmods.Anvil.addShaped(<contenttweaker:heartofthefallen>,
    [shulkerheart, witherrose, witherrose, trollskull],
    [witherrose, undyingheart, undyingheart, witherrose],
    [witherrose, undyingheart, undyingheart, witherrose],
-   [knighttrophy, witherrose, witherrose, brokenheart]
+   [hirschgeistskull, witherrose, witherrose, brokenheart]
 ]);
 
 
@@ -176,14 +174,14 @@ enchantmentMap5 += enchantments5[2].makeEnchantment(3).makeTag();
 enchantmentMap5 += enchantments5[3].makeEnchantment(1).makeTag();
 enchantmentMap5 += enchantments5[4].makeEnchantment(1).makeTag();
 
-furnace.remove(<dungeontactics:silver_nugget>);
+furnace.remove(<dungeontactics:silver_nugget>, <dungeontactics:silver_sword>);
 recipes.remove(<dungeontactics:silver_sword>);
 mods.betterwithmods.Anvil.addShaped(<dungeontactics:silver_sword>.withTag(({"Quark:RuneColor": 14, "Quark:RuneAttached": 1 as byte} as IData) + enchantmentMap5),
 [
-   [soulrune, onyx, onyx, soulrune],
+   [cometshard, onyx, onyx, cometshard],
    [onyx, ravenfeather, darksedge, onyx],
    [onyx, heartofthefallen, ravenfeather, onyx],
-   [soulrune, onyx, onyx, soulrune]
+   [cometshard, onyx, onyx, cometshard]
 ]);
 
 
@@ -191,41 +189,21 @@ mods.betterwithmods.Anvil.addShaped(<dungeontactics:silver_sword>.withTag(({"Qua
 
 /////////////////////        True Lights's Edge        /////////////////////
 
-var shapedquartz = <arcanearchives:shaped_quartz>;
-var cross = <bountifulbaubles:amuletcross>;
-var pride = <bountifulbaubles:amuletsinpride>;
-var victorymedal = <aether_legacy:victory_medal>;
-var totemascending = <totemexpansion:totem_falling>;
-
-
-mods.betterwithmods.Anvil.addShaped(<contenttweaker:amulet_of_divinity>, 
-[
-   [shapedquartz, shapedquartz, shapedquartz, shapedquartz],
-   [shapedquartz, victorymedal, pride, shapedquartz],
-   [shapedquartz, cross, totemascending, shapedquartz],
-   [shapedquartz, shapedquartz, shapedquartz, shapedquartz]
-]);
-
 
 var heartofdiamond = <quark:diamond_heart>;
-var dragonheart = <iceandfire:fire_dragon_heart>;
-var aetheriumcore = <aether_legacy:aetherium_core>;
+var victorymedal = <aether_legacy:victory_medal>;
+var healingstone = <aether_legacy:healing_stone>;
 var fallenstar = <nyx:fallen_star>;
 var fierytears = <twilightforest:fiery_tears>;
 var heavensheart = <contenttweaker:heavensheart>;
 var lightsedge = <msmlegacy:crystaline_blade>;
-var divinity = <contenttweaker:amulet_of_divinity>;
-var lamp = <twilightforest:lamp_of_cinders>;
-var heartcontainer = <scalinghealth:heartcontainer>;
-var cometshard = <nyx:comet_shard>;
-
 
 mods.betterwithmods.Anvil.addShaped(<contenttweaker:heavensheart>, 
 [
-   [divinity, aetheriumcore, aetheriumcore, lamp],
-   [aetheriumcore, dragonheart, dragonheart, aetheriumcore],
-   [aetheriumcore, dragonheart, dragonheart, aetheriumcore],
-   [heartcontainer, aetheriumcore, aetheriumcore, heartofdiamond]
+   [healingstone, victorymedal, victorymedal, healingstone],
+   [victorymedal, heartofdiamond, heartofdiamond, victorymedal],
+   [victorymedal, heartofdiamond, heartofdiamond, victorymedal],
+   [healingstone, victorymedal, victorymedal, healingstone]
 ]);
 
 

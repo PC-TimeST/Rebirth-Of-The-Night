@@ -1,8 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
-import crafttweaker.enchantments.IEnchantmentDefinition;
-import crafttweaker.data.IData;
 
 mods.jei.JEI.removeAndHide(<simpleores:copper_bucket>);
 
@@ -135,19 +133,12 @@ mods.betterwithmods.Anvil.addShaped(<simpleores:onyx_sword>, [
 ]);
 mods.betterwithmods.Anvil.removeShaped(<betterwithaddons:greatbow>);
 <betterwithaddons:greatbow>.maxDamage = 1000;
-
-val enchantments1 as IEnchantmentDefinition[] = [<enchantment:minecraft:fire_aspect>];
-var enchantmentMap1 as IData = {};
-
-enchantmentMap1 += enchantments1[0].makeEnchantment(2).makeTag();
-
-mods.betterwithmods.Anvil.addShaped(<betterwithaddons:greatbow>.withTag(enchantmentMap1), [
+mods.betterwithmods.Anvil.addShaped(<betterwithaddons:greatbow>.withTag({ench:[{lvl: 1 as short, id: 50 as short}]}), [
    [null, null, null, orod],
-   [null, <minecraft:nether_star>, orod, <quark:biotite>],
+   [null, <minecraft:nether_star>, orod, onyx],
    [null, orod, mbow, null],
-   [orod, <quark:biotite>, null, null]
+   [orod, onyx, null, null]
 ]);
-
 mods.betterwithmods.Anvil.addShaped(<simpleores:onyx_pickaxe>, [
    [null,null, null, brod],
    [onyx, null, brod, null],
